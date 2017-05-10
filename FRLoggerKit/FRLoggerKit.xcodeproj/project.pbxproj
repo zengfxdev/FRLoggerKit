@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8BC79A66B47DEAA89AAB892 /* Pods_FRLoggerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3289B8B1E97968E17AA0F613 /* Pods_FRLoggerKit.framework */; };
+		D00DBB6C1EC1BBD60022DB75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00DBB6B1EC1BBD60022DB75 /* main.m */; };
+		D00DBB6F1EC1BBD60022DB75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D00DBB6E1EC1BBD60022DB75 /* AppDelegate.m */; };
+		D00DBB721EC1BBD60022DB75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00DBB711EC1BBD60022DB75 /* ViewController.m */; };
+		D00DBB751EC1BBD60022DB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00DBB731EC1BBD60022DB75 /* Main.storyboard */; };
+		D00DBB771EC1BBD60022DB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00DBB761EC1BBD60022DB75 /* Assets.xcassets */; };
+		D00DBB7A1EC1BBD60022DB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00DBB781EC1BBD60022DB75 /* LaunchScreen.storyboard */; };
+		D044F4EC1EC2A495002AFCA3 /* FRLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D044F4EB1EC2A495002AFCA3 /* FRLogger.m */; };
+		D0C1D0721EC1C9B9009CAEAF /* DDLogServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C1D0711EC1C9B9009CAEAF /* DDLogServiceManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3289B8B1E97968E17AA0F613 /* Pods_FRLoggerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRLoggerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39E554A565E052EB2F13951 /* Pods-FRLoggerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRLoggerKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRLoggerKit/Pods-FRLoggerKit.debug.xcconfig"; sourceTree = "<group>"; };
+		AAEF99B38A7E523D5B411DC0 /* Pods-FRLoggerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRLoggerKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRLoggerKit/Pods-FRLoggerKit.release.xcconfig"; sourceTree = "<group>"; };
+		D00DBB671EC1BBD60022DB75 /* FRLoggerKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRLoggerKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00DBB6B1EC1BBD60022DB75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D00DBB6D1EC1BBD60022DB75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D00DBB6E1EC1BBD60022DB75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D00DBB701EC1BBD60022DB75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D00DBB711EC1BBD60022DB75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D00DBB741EC1BBD60022DB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D00DBB761EC1BBD60022DB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D00DBB791EC1BBD60022DB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D00DBB7B1EC1BBD60022DB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D044F4EA1EC2A495002AFCA3 /* FRLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRLogger.h; sourceTree = "<group>"; };
+		D044F4EB1EC2A495002AFCA3 /* FRLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRLogger.m; sourceTree = "<group>"; };
+		D0C1D0701EC1C9B9009CAEAF /* DDLogServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogServiceManager.h; sourceTree = "<group>"; };
+		D0C1D0711EC1C9B9009CAEAF /* DDLogServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLogServiceManager.m; sourceTree = "<group>"; };
+		D0E695A51EC1CFD800CBEAF7 /* FRLoggerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRLoggerKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00DBB641EC1BBD60022DB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BC79A66B47DEAA89AAB892 /* Pods_FRLoggerKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C79B9A8E177E52FE57793968 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A39E554A565E052EB2F13951 /* Pods-FRLoggerKit.debug.xcconfig */,
+				AAEF99B38A7E523D5B411DC0 /* Pods-FRLoggerKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D00DBB5E1EC1BBD60022DB75 = {
+			isa = PBXGroup;
+			children = (
+				D00DBB811EC1BBE20022DB75 /* Source */,
+				D00DBB691EC1BBD60022DB75 /* FRLoggerKit */,
+				D00DBB681EC1BBD60022DB75 /* Products */,
+				C79B9A8E177E52FE57793968 /* Pods */,
+				F33A2C1A7E8D22457E58E372 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D00DBB681EC1BBD60022DB75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D00DBB671EC1BBD60022DB75 /* FRLoggerKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00DBB691EC1BBD60022DB75 /* FRLoggerKit */ = {
+			isa = PBXGroup;
+			children = (
+				D00DBB6D1EC1BBD60022DB75 /* AppDelegate.h */,
+				D00DBB6E1EC1BBD60022DB75 /* AppDelegate.m */,
+				D00DBB701EC1BBD60022DB75 /* ViewController.h */,
+				D00DBB711EC1BBD60022DB75 /* ViewController.m */,
+				D00DBB731EC1BBD60022DB75 /* Main.storyboard */,
+				D00DBB761EC1BBD60022DB75 /* Assets.xcassets */,
+				D00DBB781EC1BBD60022DB75 /* LaunchScreen.storyboard */,
+				D00DBB7B1EC1BBD60022DB75 /* Info.plist */,
+				D00DBB6A1EC1BBD60022DB75 /* Supporting Files */,
+			);
+			path = FRLoggerKit;
+			sourceTree = "<group>";
+		};
+		D00DBB6A1EC1BBD60022DB75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D00DBB6B1EC1BBD60022DB75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D00DBB811EC1BBE20022DB75 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D00DBB821EC1BBE20022DB75 /* Classes */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		D00DBB821EC1BBE20022DB75 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D044F4EA1EC2A495002AFCA3 /* FRLogger.h */,
+				D044F4EB1EC2A495002AFCA3 /* FRLogger.m */,
+				D0C1D0701EC1C9B9009CAEAF /* DDLogServiceManager.h */,
+				D0C1D0711EC1C9B9009CAEAF /* DDLogServiceManager.m */,
+				D0E695A51EC1CFD800CBEAF7 /* FRLoggerKit.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F33A2C1A7E8D22457E58E372 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3289B8B1E97968E17AA0F613 /* Pods_FRLoggerKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00DBB661EC1BBD60022DB75 /* FRLoggerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00DBB7E1EC1BBD60022DB75 /* Build configuration list for PBXNativeTarget "FRLoggerKit" */;
+			buildPhases = (
+				1805051195144EEB5F383A9C /* [CP] Check Pods Manifest.lock */,
+				D00DBB631EC1BBD60022DB75 /* Sources */,
+				D00DBB641EC1BBD60022DB75 /* Frameworks */,
+				D00DBB651EC1BBD60022DB75 /* Resources */,
+				4048EB4DF98A236CFCE3E060 /* [CP] Embed Pods Frameworks */,
+				665A765D0520BBAA1AF14AD3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRLoggerKit;
+			productName = FRLoggerKit;
+			productReference = D00DBB671EC1BBD60022DB75 /* FRLoggerKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00DBB5F1EC1BBD60022DB75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zengfxios;
+				TargetAttributes = {
+					D00DBB661EC1BBD60022DB75 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AVQ8S7662K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D00DBB621EC1BBD60022DB75 /* Build configuration list for PBXProject "FRLoggerKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00DBB5E1EC1BBD60022DB75;
+			productRefGroup = D00DBB681EC1BBD60022DB75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00DBB661EC1BBD60022DB75 /* FRLoggerKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00DBB651EC1BBD60022DB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00DBB7A1EC1BBD60022DB75 /* LaunchScreen.storyboard in Resources */,
+				D00DBB771EC1BBD60022DB75 /* Assets.xcassets in Resources */,
+				D00DBB751EC1BBD60022DB75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1805051195144EEB5F383A9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4048EB4DF98A236CFCE3E060 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRLoggerKit/Pods-FRLoggerKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665A765D0520BBAA1AF14AD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRLoggerKit/Pods-FRLoggerKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00DBB631EC1BBD60022DB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00DBB721EC1BBD60022DB75 /* ViewController.m in Sources */,
+				D044F4EC1EC2A495002AFCA3 /* FRLogger.m in Sources */,
+				D00DBB6F1EC1BBD60022DB75 /* AppDelegate.m in Sources */,
+				D0C1D0721EC1C9B9009CAEAF /* DDLogServiceManager.m in Sources */,
+				D00DBB6C1EC1BBD60022DB75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D00DBB731EC1BBD60022DB75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00DBB741EC1BBD60022DB75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D00DBB781EC1BBD60022DB75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00DBB791EC1BBD60022DB75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D00DBB7C1EC1BBD60022DB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D00DBB7D1EC1BBD60022DB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D00DBB7F1EC1BBD60022DB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39E554A565E052EB2F13951 /* Pods-FRLoggerKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AVQ8S7662K;
+				INFOPLIST_FILE = FRLoggerKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengfxios.FRLoggerKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		D00DBB801EC1BBD60022DB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAEF99B38A7E523D5B411DC0 /* Pods-FRLoggerKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AVQ8S7662K;
+				INFOPLIST_FILE = FRLoggerKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengfxios.FRLoggerKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00DBB621EC1BBD60022DB75 /* Build configuration list for PBXProject "FRLoggerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00DBB7C1EC1BBD60022DB75 /* Debug */,
+				D00DBB7D1EC1BBD60022DB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00DBB7E1EC1BBD60022DB75 /* Build configuration list for PBXNativeTarget "FRLoggerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00DBB7F1EC1BBD60022DB75 /* Debug */,
+				D00DBB801EC1BBD60022DB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00DBB5F1EC1BBD60022DB75 /* Project object */;
+}

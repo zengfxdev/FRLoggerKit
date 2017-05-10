@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+
+def shared_pods
+    pod 'CocoaLumberjack', '~> 3.2.0'
+end
+
+target :'FRLoggerKit' do
+    platform :ios, '8.0'
+    use_frameworks!
+    shared_pods
+end
